@@ -3,4 +3,4 @@ YTSR is an R package designed to help with analysis on the Youth Tobacco Survey 
 # How to install:
 
 install.packages("remotes")
-remotes::install_github("rstudio4edu/testpackage")
+remotes::install_github("ericzarycki/ytsr")
