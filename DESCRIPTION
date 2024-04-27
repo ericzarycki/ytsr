@@ -1,12 +1,16 @@
 Package: ytsr
-Title: What the Package Does (One Line, Title Case)
+Title: Youth Tobacco Survey (YTS) Data Analysis Package
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Eric", "Zarycki", , "ericdzarycki@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0001-3734-2675"))
+Description: The Youth Tobacco Survey (YTS) Data Analysis Package provides tools and functions for analyzing and visualizing survey data related to tobacco use among youth. It includes functions for data cleaning, manipulation, and visualization, allowing users to explore trends, demographics, and responses from the YTS dataset.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    tibble
