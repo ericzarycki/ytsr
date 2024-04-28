@@ -39,6 +39,7 @@ A tibble with 106000 rows and 31 variables:
 \item{SubMeasureID}{chr SubMeasureID for programming purposes}
 \item{DisplayOrder}{dbl Display order}
 }
+data("yts_df")
 }
 \source{
 \url{https://data.cdc.gov/Survey-Data/Youth-Tobacco-Survey-YTS-Data/4juz-x2tp/about_data}
